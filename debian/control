@@ -1,0 +1,13 @@
+Source: libdevice-pca9685-perl
+Section: perl
+Priority: optional
+Maintainer: Shantanu Bhadoria <shantanu@cpan.org>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl
+Standards-Version: 3.9.2
+Homepage: http://search.cpan.org/dist/Device-PCA9685/
+
+Package: libdevice-pca9685-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: I2C interface to PCA9685 16 channel 12 bit PWM Generator 

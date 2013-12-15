@@ -1,6 +1,16 @@
 Changelog for Device-PCA9685
 
-0.001 2013-09-27T11:07:13
+0.002 2013-12-15T02:36:26
+ - Fixed pod spellings [Shantanu]
+ - Fixed POD [Shantanu]
+
+0.001 2013-09-27T11:07:52
+ - v0.001
+   
+    - Possibly first release [Shantanu]
+    - Refactoring Submodule to allow easy loading of similar subdevices as
+      plugins using a common prefix in MOP [Shantanu Bhadoria]
+    - First Commit [Shantanu Bhadoria] [Shantanu]
  - Possibly first release [Shantanu]
  - Refactoring Submodule to allow easy loading of similar subdevices as
    plugins using a common prefix in MOP [Shantanu Bhadoria]

@@ -13,7 +13,7 @@ package Device::PWMGenerator::PCA9685;
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
 #
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 # Dependencies
 use 5.010;
@@ -119,29 +119,7 @@ Device::PWMGenerator::PCA9685 - I2C interface to PWM Generator on PCA9685 using 
 
 =head1 VERSION
 
-version 0.001
-
-=head1 REGISTERS
-
-=head2 MODE1
-
-=head2 SUBADR1
-
-=head2 SUBADR2
-
-=head2 SUBADR3
-
-=head2 PRESCALE
-
-=head2 LED0_ON_L
-
-=head2 LED0_ON_H
-
-=head2 LED0_OFF_L
-
-=head2 LED0_OFF_H
-
-=head2 LED0_OFF_H
+version 0.002
 
 =head1 ATTRIBUTES
 
@@ -167,6 +145,28 @@ This function is just a placeholder. It is not required to call this function fo
     The PCA9685 offers a 12 bit resolution which means across a duty cycle you may set and unset the PWM at 4096 different point. 
     Range of values for $pulseOnPoint and $pulseOffPoint is 0 to 4095
     Range of values of $channel is 0 to 15
+
+=head1 REGISTERS
+
+=head2 MODE1
+
+=head2 SUBADR1
+
+=head2 SUBADR2
+
+=head2 SUBADR3
+
+=head2 PRESCALE
+
+=head2 LED0_ON_L
+
+=head2 LED0_ON_H
+
+=head2 LED0_OFF_L
+
+=head2 LED0_OFF_H
+
+=head2 LED0_OFF_H
 
 =head1 AUTHOR
 

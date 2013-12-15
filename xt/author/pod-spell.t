@@ -11,6 +11,7 @@ all_pod_files_spelling_ok(qw( bin lib  ));
 __DATA__
 shantanu
 bhadoria
+Adafruit
 CDevice
 CDeviceAddress
 PWM

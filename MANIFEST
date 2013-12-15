@@ -5,12 +5,13 @@ META.json
 META.yml
 Makefile.PL
 README
+debian/changelog
+debian/control
 examples/esc_calibration.pl
 examples/example.pl
 examples/slowspeed.pl
 lib/Device/PCA9685.pm
 lib/Device/PWMGenerator/PCA9685.pm
-t/00-compile.t
 t/00-report-prereqs.t
 xt/author/critic.t
 xt/author/pod-spell.t

@@ -4,15 +4,13 @@ author:
   - 'Shantanu Bhadoria <shantanu at cpan dott org>'
 build_requires:
   ExtUtils::MakeMaker: 0
-  File::Find: 0
   File::Spec::Functions: 0
-  File::Temp: 0
   List::Util: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.132510'
+generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132510'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -30,10 +28,10 @@ no_index:
 provides:
   Device::PCA9685:
     file: lib/Device/PCA9685.pm
-    version: 0.001
+    version: 0.002
   Device::PWMGenerator::PCA9685:
     file: lib/Device/PWMGenerator/PCA9685.pm
-    version: 0.001
+    version: 0.002
 requires:
   Device::SMBus: 0
   Moose: 0
@@ -47,7 +45,7 @@ resources:
   bugtracker: https://github.com/shantanubhadoria/device-pca9685/issues
   homepage: https://metacpan.org/release/Device-PCA9685
   repository: git://github.com/shantanubhadoria/device-pca9685.git
-version: 0.001
+version: 0.002
 x_contributors:
   - 'Shantanu <shantanu@cpan.org>'
   - 'Shantanu Bhadoria <shantanu@cpan.org>'

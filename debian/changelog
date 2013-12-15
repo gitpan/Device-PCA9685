@@ -1,0 +1,19 @@
+device-pca9685 (0.002) stable; urgency=low
+  * Fixed pod spellings 
+  * Fixed POD 
+
+ -- Shantanu Bhadoria <shantanu@cpan.org>  Sun, 15 Dec 2013 10:36:19 -0000
+
+device-pca9685 (release-0.001) stable; urgency=low
+  * v0.001
+  - Possibly first release [Shantanu]
+  - Refactoring Submodule to allow easy loading of similar subdevices as
+  plugins using a common prefix in MOP [Shantanu Bhadoria]
+  - First Commit [Shantanu Bhadoria] 
+  * Possibly first release 
+  * Refactoring Submodule to allow easy loading of similar subdevices as
+    plugins using a common prefix in MOP 
+  * First Commit 
+
+ -- Shantanu Bhadoria <shantanu@cpan.org>  Fri, 27 Sep 2013 18:07:52 -0000
+

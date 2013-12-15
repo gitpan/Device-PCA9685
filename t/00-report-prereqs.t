@@ -12,9 +12,7 @@ use List::Util qw/max/;
 my @modules = qw(
     Device::SMBus
   ExtUtils::MakeMaker
-  File::Find
   File::Spec::Functions
-  File::Temp
   List::Util
   Moose
   POSIX
